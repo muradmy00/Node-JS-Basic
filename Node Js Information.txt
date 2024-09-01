@@ -1,0 +1,28 @@
+npm init
+
+npm install express --save
+
+create a file index.jsx
+
+copy in hello world exprees code then run this code
+
+put this code in index.jsx
+
+node index.jsx
+
+
+.gitignore for not push in github
+
+example: node_module/
+
+
+Nodemoon install:
+
+sudo npm i -g nodemon
+
+
+
+
+package.json  import this line in scripts and then run this code in : npm run dev 
+
+"dev":"nodemon index.js"

@@ -62,7 +62,7 @@ app.get('/users', (req, res) => { res.send(users) })
 app.get('/users/:id',(req,res)=>{
 
     const id = req.params.id;
-    //console.log(id);
+    //console.log(id); 
     const user = users[id];
     res.send(user);
 })
